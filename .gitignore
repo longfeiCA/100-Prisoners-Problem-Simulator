@@ -1,0 +1,7 @@
+# Virtual environment directories
+
+venv/
+.venv/
+
+# log file (It can be huge)
+log.txt
