@@ -7,7 +7,7 @@ Simple python script to simulate the famous [100 Prisoners Problem](https://en.w
 The simulator offers three main functionalities:
 
 1. **Test Command (`test`):**  
-   Runs an infinite loop that performs a single experiment for increasing numbers of prisoners (starting from 10 and multiplying by 10 each iteration). It prints the execution time of each experiment. Use `Ctrl+C` to stop the loop. Use this function to estimate the runtime before the experiments. 
+   Runs an infinite loop that performs a single experiment for increasing numbers of prisoners (starting from 10 and multiplying by 10 each iteration). It prints the execution time of each experiment. Use `Ctrl+C` to stop the loop. Use this function to estimate the runtime before the experiments.  
    **Usage Examples:**
     ```
     python main.py test
@@ -90,9 +90,9 @@ $$
 
 And here is the result: 
 
-![Ploting Result](plot.png)
+![Plotting Result](plot.png)
 
-The execusion time is probably lower than the estimation, because my plotting task finished earlier, but the duation should remain within the same order of magnitude. 
+The execution time is probably lower than the estimation, because my plotting task finished earlier, but the duation should remain within the same order of magnitude. 
 
 ```
 $ python main.py plot 2 100 3304252
